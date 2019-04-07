@@ -1,0 +1,14 @@
+{
+  "jobs":
+    [
+      {
+        "name":"ProductRefreshDeploy",
+        "args":"nixAccount,Prod-Fam"
+      },
+      {
+        "name":"DbClone",
+        "args":"nixAccount"
+      }
+    ]
+
+}
